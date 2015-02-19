@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1DF10B01-204E-4726-844C-78BD71F33A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientUI", "ClientUI\ClientUI.csproj", "{00724A69-0648-4593-992A-B93F563185D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2277EE91-1EF8-461E-8F34-EF83B76E4DB8}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{8B7720B0-D578-4C57-86D9-7DDA62E5ED05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF10B01-204E-4726-844C-78BD71F33A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF10B01-204E-4726-844C-78BD71F33A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF10B01-204E-4726-844C-78BD71F33A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF10B01-204E-4726-844C-78BD71F33A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00724A69-0648-4593-992A-B93F563185D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00724A69-0648-4593-992A-B93F563185D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00724A69-0648-4593-992A-B93F563185D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00724A69-0648-4593-992A-B93F563185D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7720B0-D578-4C57-86D9-7DDA62E5ED05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7720B0-D578-4C57-86D9-7DDA62E5ED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7720B0-D578-4C57-86D9-7DDA62E5ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7720B0-D578-4C57-86D9-7DDA62E5ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

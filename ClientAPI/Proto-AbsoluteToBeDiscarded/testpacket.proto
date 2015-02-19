@@ -1,0 +1,12 @@
+package packetSpeed;
+option optimize_for = SPEED;
+
+message PacketSpeed{ 
+required PacketTYPE  type = 1 [default = Login];
+repeated string String =2;
+repeated float Float =3;
+}
+enum PacketTYPE {
+    Login = 0;
+    Chat =1;
+  }

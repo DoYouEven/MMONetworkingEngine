@@ -1,0 +1,11 @@
+ProtoTools\ProtoGen.exe --proto_path=./ProtoTools ProtoTools/testpacket.proto --include_imports -output_directory=ProtoTools/testing
+ --proto_path=./ testpacket.proto --include_imports -output_directory=Testing
+witch (msgReceived.cmdCommand)
+ 83                  {
+ 84                      case Command.Login:     
+ 85                          lstChatters.Items.Add(msgReceived.strName);
+ 86                          break;
+ 87  
+ 88                      case Command.Logout:
+ 89                          lstChatters.Items.Remove(msgReceived.strName);
+ 90                          break;

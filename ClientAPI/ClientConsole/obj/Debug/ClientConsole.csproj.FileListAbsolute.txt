@@ -1,0 +1,9 @@
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\ClientConsole.exe.config
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\ClientConsole.exe
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\ClientConsole.pdb
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\Client.dll
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\UnityEngine.dll
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\bin\Debug\Client.pdb
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\obj\Debug\ClientConsole.csprojResolveAssemblyReference.cache
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\obj\Debug\ClientConsole.exe
+G:\MMOGameEngine\Client\ClientAPI\ClientConsole\obj\Debug\ClientConsole.pdb

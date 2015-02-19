@@ -1,0 +1,28 @@
+package packets;
+option optimize_for = SPEED;
+
+message Packet{
+ required Header header= 1;
+ required Payload payload = 2;
+}
+enum PacketType {
+    Login = 0;
+    Chat=1;
+  }
+message Header {
+  required int32 id = 1;        // Unique ID number for this person.
+  optional PacketType type = 2 [default = Login];
+ optional int32  toclientid =3;
+ }
+message Payload {
+ optional LoginPayload loginpayload=1;
+ optional ChatMsgPayload chatmsgpayload=2;
+ }
+message LoginPayload{
+required string username = 1;        //Username
+  required string password = 2;       //Password
+ required string email  =3;
+}
+message ChatMsgPayload{
+required string chatrmsg = 1;
+}

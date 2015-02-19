@@ -1,0 +1,47 @@
+package packets;
+option optimize_for = SPEED;
+
+message Packet{
+ required Header header= 1;
+ required Payload payload = 2;
+}
+enum PacketType {
+    LOGIN = 0;
+    GAME =1;
+ PLAYER_DATA =2;
+  }
+message Header {
+  required int32 id = 1;        // Unique ID number for this person.
+  optional PacketType type = 2 [default = LOGIN];
+ }
+message Payload {
+ optional LoginPayload loginpayload=1;
+ optional PlayerDataPayload playerdatapayload=2;
+ }
+message LoginPayload{
+required string username = 1;        //Username
+  required string password = 2;       //Password
+ required string email  =3;
+}
+message PlayerDataPayload{
+required int32  id = 1; // The Player's ID this packet is describing
+optional LOCATION location = 2; // Where the player is last time they updated the server
+optional string username = 3; // The username of the player that this packet is describing
+repeated POKEMON party = 4; // What pokémon they have
+}
+
+/* Motherfucking proto only types fo shizle */
+
+message LOCATION{
+ required double X = 1;
+ required double Y = 2;
+ required double Z = 3;
+ optional double Pitch = 4;
+ optional double Yaw = 5;
+ optional double Roll = 6;
+}
+ 
+message POKEMON{
+  required int32 id = 1;
+  required int32 dex = 2;
+}

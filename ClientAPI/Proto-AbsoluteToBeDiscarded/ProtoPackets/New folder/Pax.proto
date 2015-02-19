@@ -1,0 +1,29 @@
+package tutorial;
+
+option java_package = "MSP";
+option java_outer_classname = "MspPax";
+
+message Login {
+  required string username = 1;
+  required string password = 2;
+  optional string email = 3;
+  
+}
+
+message Msg {
+  required string msg = 1;
+}
+
+message Pax {
+
+	required MessageType type=1;
+	
+	optional Login login =2;
+	optional Msg msg=3;
+
+	enum MessageType {
+		RequestLogin = 0;
+		LoginInfo = 1;
+		Msg = 2;
+  }
+}
